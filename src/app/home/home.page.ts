@@ -6,6 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
+  myText = 'Hello World';
+  user = {
+    name: "abdullah khan",
+    city: "Islamabad",
+    interest: ['cricket','Gaming','Movies']
+  };
+
 
   constructor() {}
 
